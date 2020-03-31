@@ -8,3 +8,9 @@ Some solutions to the Data61's (NICTA) [Functional Programming Course](https://g
 
 ## H-99
 Some solutions to the [H-99: Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems).
+
+## Quadratic sieve
+Basic implementation of the quadratic sieve algorithm in Haskell using the `arithmoi` package. Usage:
+```
+factor 9345673029867
+```

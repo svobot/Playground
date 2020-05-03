@@ -14,3 +14,4 @@ Basic implementation of the quadratic sieve algorithm in Haskell using the `arit
 ```
 factor 9345673029867
 ```
+More involved implementation of the self-initializing quadratic sieve algorithm is available in `siqs.hs`. Function `factorise` finds one factor of a hard-coded prime. The algorithm is missing a randomness element in the `computeAParamenter` function to make it useful universally.
